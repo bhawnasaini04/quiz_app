@@ -13,5 +13,5 @@ An interactive quiz web app built with HTML, CSS and vanilla JavaScript.
 HTML, CSS, JavaScript
 
 ## Live Demo
-https://bhawnasaini04.github.io/quiz-app/
+https://bhawnasaini04.github.io/quiz_app/
 
