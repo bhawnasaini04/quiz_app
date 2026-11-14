@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Basics Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+
+    <!-- Screen 1: Start -->
+    <section id="start-screen">
+      <h1>Code Basics Quiz</h1>
+      <p class="sub">10 questions on Python, HTML, CSS and JavaScript. Pick one answer for each question.</p>
+      <button id="start-btn" class="btn">Start quiz</button>
+    </section>
+
+    <!-- Screen 2: Quiz -->
+    <section id="quiz-screen" class="hidden">
+      <div class="top-row">
+        <span id="progress-text">Question 1 of 10</span>
+        <span id="score-text">Score: 0</span>
+      </div>
+      <div class="bar"><div id="progress-bar"></div></div>
+
+      <h2 id="question">Question goes here</h2>
+      <div id="options"></div>
+
+      <p id="feedback" class="feedback"></p>
+      <button id="next-btn" class="btn hidden">Next question</button>
+    </section>
+
+    <!-- Screen 3: Result -->
+    <section id="result-screen" class="hidden">
+      <h1>Quiz complete</h1>
+      <p class="big" id="final-score"></p>
+      <p class="sub" id="result-msg"></p>
+      <button id="restart-btn" class="btn">Try again</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
